@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6; 
+    margin: 0;
+    padding: 20px; 
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+
+.flex-container {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+.flex-container img {
+    height: 65px;
+    width: 70px;
+}
+
+.line {
+    flex-grow: 1; 
+    height: 2px; 
+    background-color: black; 
+    margin: 0 10px; 
+}
+
+.underline {
+    text-decoration: underline;
+    color: blue;
+}
+
+hr {
+    margin: 20px 0; 
+}
+
